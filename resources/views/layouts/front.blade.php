@@ -86,24 +86,22 @@
                     <!-- About ISBMU -->
                     <li class="nav-item dropdown megadrop">
                         <a class="nav-link dropdown-toggle" href="#" id="aboutDD" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            About ISBMU
+                            About us
                         </a>
                         <div class="dropdown-menu megamenu" aria-labelledby="aboutDD" id="about">
-                            <ul class="d-flex flex-wrap p-0 menu-list">
-                                <li class="col-12">
-                                    <ul class="inner-ul">
-                                        <li><a href="about-us.php">About Us</a></li>
-                                        <li><a href="mission-values.php">Vision and Mission</a></li>
-                                        <li><a href="dignitaries-messages.php">Messages of the Dignitaries</a></li>
-                                        <li><a href="statues-and-ordinance.php">Statutes and Ordinances</a></li>
-                                        <li><a href="recognition.php">Recognitions and Approvals</a></li>
-                                        <li><a href="awards.php">Awards</a></li>
-                                        <li><a href="media-coverage.php">Media Coverage</a></li>
-                                        <li><a href="RTI.php">RTI</a></li>
-                                    </ul>
-                                </li>
-
-                            </ul>
+                           <ul class="d-flex flex-wrap p-0 menu-list">
+                                    <li class="col-12">
+                                        <ul class="inner-ul">
+                                            <li><a href="about-us">About Us</a></li>
+                                            <li><a href="vision-and-mission">Vision and Mission</a></li>
+                                            <li><a href="chairman-message">Chairman’s Message</a></li>
+                                            <li><a href="principle-message">Principal Message</a></li>
+                                            <li><a href="award-and-recognisation">Awards & recognitions</a></li>
+                                            <li><a href="affiliation-and-accreditation">Affiliation and accreditation</a></li>
+                                            <li><a href="policies">Internal policies</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                         </div>
                     </li>
 
@@ -113,27 +111,11 @@
                             Academics
                         </a>
                         <div class="dropdown-menu megamenu" aria-labelledby="academicsDD" id="academics">
-                            <ul class="d-flex flex-wrap p-0 menu-list">
-                                <li class="col-lg-6 col-md-6 col-12">
+                           <ul class="d-flex flex-wrap p-0 menu-list">
+                                <li class="col-12">
                                     <ul class="inner-ul">
-                                        <li><a href="faculty-of-science.php">Faculty of Sciences</a></li>
-                                        <li><a href="faculty-of-commerce-management.php">Faculty of Commerce and Management</a></li>
-                                        <li><a href="faculty-of-arts-and-humanities.php">Faculty of Arts and Humanities</a></li>
-                                        <li><a href="faculty-of-engineering-and-technology.php">Faculty of Engineering and Technology</a></li>
-                                        <li><a href="faculty-of-health-and-allied-science.php">Faculty of Health and Allied Sciences</a></li>
-                                        <li><a href="faculty-of-law.php">Faculty of Law</a></li>
-                                        <li><a href="faculty-of-library-and-information-science.php">Faculty of Library & Information Sciences</a></li>
-                                        <li><a href="research.php">Research</a></li>
-                                    </ul>
-                                </li>
-                                <li class="col-lg-6 col-md-6 col-12">
-                                    <ul class="inner-ul">
-                                        <li><a href="academic-philosophy.php">Academic Philosophy</a></li>
-                                        <li><a href="academic-partner.php">Academic Partners</a></li>
-                                        <li><a href="online-resources.php">Online Resources</a></li>
-                                        <li><a href="teaching-methodology-pedagogy.php">Teaching Methodology/Pedagogy</a></li>
-                                        <li><a href="mooc-with-isbm.php">MOOC </a></li>
-                                        <li><a href="mous-and-collaborations.php">MOUs & Collaborations</a></li>
+                                        <li><a href="academic-details">Academic details</a></li>
+                                        <li><a href="faculty-details-and-profiles">Faculty details and profiles</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -146,22 +128,13 @@
                             Admissions
                         </a>
                         <div class="dropdown-menu megamenu" aria-labelledby="admissionsDD" id="admissions">
-                            <ul class="d-flex flex-wrap p-0 menu-list">
-                                <li class="col-lg-6 col-md-6 col-12">
+                           <ul class="d-flex flex-wrap p-0 menu-list">
+                                <li class="col-12">
                                     <ul class="inner-ul">
-                                        <h6 class="list-header">Programmes</h6>
-                                        <li><a href="programmes-and-eligibilities.php">Programmes and Eligibilities</a></li>
-                                        <li><a href="programmes-by-qualification.php">Programmes By Qualification</a></li>
-                                        <li><a href="skill-development.php">Skill Development</a></li>
-                                    </ul>
-                                </li>
-                                <li class="col-lg-6 col-md-6 col-12">
-                                    <ul class="inner-ul">
-                                        <h6 class="list-header">Apply To ISBMU</h6>
-                                        <li><a href="pay-fees-online.php">Online Payment</a></li>
-                                        <li><a href="payment-procedure-guidelines.php">Payment Procedure Guidelines</a></li>
-                                        <li><a href="admission-procedure-guidelines.php">Admission Procedure Guidelines</a></li>
-                                        <li><a href="admission-help-desk.php">Admission Helpdesk</a></li>
+                                        <li><a href="admission-process">Admission process</a></li>
+                                        <li><a href="eligibility-criteria">Eligibility criteria </a></li>
+                                        <li><a href="fees-structure">Fees Structure </a></li>
+                                        <li><a href="examination-result">Examination and Results</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -171,20 +144,21 @@
                     <!-- Student Services -->
                     <li class="nav-item dropdown megadrop">
                         <a class="nav-link dropdown-toggle" href="#" id="studentDD" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Student Services
+                            Student Corner
                         </a>
                         <div class="dropdown-menu megamenu" aria-labelledby="studentDD" id="studentcorner">
                             <ul class="d-flex flex-wrap p-0 menu-list">
                                 <li class="col-12">
-                                    <ul class="inner-ul">
-                                        <li><a href="faqs.php">FAQ</a></li>
-                                        <li><a href="scholarship.php">Scholarship</a></li>
-                                        <li><a href="anti-ragging-policy.php">Anti-Ragging Policy</a></li>
-                                        <li><a href="download-form.php">Download Forms</a></li>
-                                        <li><a href="https://isbmalumni.com/" target="_blank" rel="noopener">Alumni Portal</a></li>
-                                        <li><a href="https://voterportal.eci.gov.in/" target="_blank" rel="noopener">Voter Portal</a></li>
-                                        <li><a href="RTI.php">RTI</a></li>
-                                        <li><a href="e-content.php">E-Content</a></li>
+                                    <ul class="d-flex flex-wrap p-0 menu-list">
+                                        <li class="col-12">
+                                            <ul class="inner-ul">
+                                                <li><a href="student-support">Student support services</a></li>
+                                                <li><a href="scholarships">Scholarships</a></li>
+                                                <li><a href="student-life">Student life</a></li>
+                                                <li><a href="contact-info-staff-and-departments">Contact info staff and departments</a></li>
+                                            </ul>
+                                        </li>
+
                                     </ul>
                                 </li>
 
@@ -192,26 +166,7 @@
                         </div>
                     </li>
 
-                    <!-- Placements -->
-                    <li class="nav-item dropdown megadrop">
-                        <a class="nav-link dropdown-toggle" href="#" id="placementDD" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Placements
-                        </a>
-                        <div class="dropdown-menu megamenu" aria-labelledby="placementDD" id="placement">
-                            <ul class="d-flex flex-wrap p-0 menu-list">
-                                <li class="col-lg-12 col-md-12 col-sm-12">
-                                    <ul class="inner-ul">
-                                        <li><a href="placement-cell">About Placements</a></li>
-                                        <li><a href="career-counselling.php">Career Counselling</a></li>
-                                        <li><a href="global-skills.php">Global Skills</a></li>
-                                        <li><a href="recruiters.php">Recruiters</a></li>
-                                        <li><a href="recruitment-and-training.php">Campus Recruitment & Interview Training</a></li>
-                                        <li><a href="work-at-isbmu.php">Work at ISBM University</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
+                   
 
                     <!-- Campus -->
                     <li class="nav-item dropdown megadrop">
@@ -219,18 +174,11 @@
                             Campus
                         </a>
                         <div class="dropdown-menu megamenu" aria-labelledby="campusDD" id="campus">
-                            <ul class="d-flex flex-wrap p-0 menu-list">
+                             <ul class="d-flex flex-wrap p-0 menu-list">
                                 <li class="col-lg-12 col-md-12 col-sm-12">
                                     <ul class="inner-ul">
-                                        <li><a href="campus-overview.php">Campus Overview</a></li>
-                                        <li><a href="library.php">Library</a></li>
-                                        <li><a href="laboratory.php">Laboratory</a></li>
-                                        <li><a href="campus-infrastructure.php">Campus Infrastructure</a></li>
-                                        <li><a href="extra-curricular.php">Extra Curricular</a></li>
-                                        <li><a href="digitized-learning-system.php">Digitized Learning System</a></li>
-                                        <li><a href="bus-routes-and-schedules.php">Bus Routes & Schedules</a></li>
-                                        <li><a href="bus-transportation-fees.php">Bus Transportation Fees</a></li>
-                                        <li><a href="hostel.php">Hostel</a></li>
+                                        <li><a href="campus-overview">Campus Overview</a></li>
+                                        <li><a href="campus-infrastructure">Campus Infrastructure</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -240,14 +188,13 @@
                     <!-- NAAC -->
                     <li class="nav-item dropdown megadrop">
                         <a class="nav-link dropdown-toggle" href="#" id="naacDD" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            NAAC
+                             NAAC & IQAC
                         </a>
                         <div class="dropdown-menu megamenu" aria-labelledby="naacDD" id="naac">
                             <ul class="d-flex flex-wrap p-0 menu-list">
                                 <li class="col-lg-12 col-md-12 col-sm-12">
                                     <ul class="inner-ul">
                                         <li><a href="naac.php">NAAC</a></li>
-                                        <li><a href="stake-holder-feedback.php">Stake Holder Feedback</a></li>
                                         <li><a href="iqac.php">IQAC</a></li>
                                     </ul>
                                 </li>

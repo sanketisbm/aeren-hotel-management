@@ -2,6 +2,7 @@
 :root {
     --primary: #225580;
     --secondary: #848688;
+    --secondary-light: #e6e7e8;
 }
 
 * {
@@ -69,10 +70,6 @@ body {
     }
 }
 
-.text-blue {
-    color: var(--primary) !important;
-}
-
 .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out forwards;
 }
@@ -123,8 +120,8 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #252a8c !important;
-    border-color: #252a8c !important;
+    background-color: #326996 !important;
+    border-color: #326996 !important;
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(48, 54, 166, 0.3);
 }
@@ -137,13 +134,17 @@ body {
     transition: all 0.3s ease;
 }
 
-.btn-secondary:hover {
-    background-color: #e05a0a !important;
-    border-color: #e05a0a !important;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(248, 109, 16, 0.3);
+.bg-secondary-light {
+    background-color: var(--secondary-light) !important;
 }
 
+
+.btn-secondary:hover {
+    background-color: #5f5f5f !important;
+    border-color: #5f5f5f !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(204, 199, 199, 0.3);
+}
 .btn-outline-primary {
     color: var(--primary) !important;
     border-color: var(--primary) !important;
@@ -156,6 +157,7 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(48, 54, 166, 0.3);
 }
+
 
 /* navbaar css */
 /* Navbar links */
@@ -377,4 +379,914 @@ html {
     border-radius: 10px;
     height: 160px;
     object-fit: cover;
+}
+
+/* about us page */
+.about-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/school-images/school-1.png");
+}
+
+.legacy-icon {
+    flex-shrink: 0;
+}
+
+/* vision mission page */
+
+.vision-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/vision-mission-banner.jpg");
+}
+
+.vision-card,
+.mission-card,
+.action-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.vision-card:hover,
+.mission-card:hover,
+.action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.point-icon {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* awards page  */
+.awards-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/awards-banner.jpg");
+}
+
+.award-card,
+.certificate-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.award-card:hover,
+.certificate-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.recognition-icon {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.trophy-display {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+}
+
+/* chairmans and principle message  */
+.chairman-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/leader-messages-banner.avif");
+}
+
+.chairman-photo img {
+    border: 3px solid var(--primary);
+}
+
+.principle-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/leader-messages-banner.avif");
+}
+
+.principle-photo img {
+    border: 3px solid var(--primary);
+}
+
+.message-card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.message-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.message-icon {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+/* course details page */
+
+.bed-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/academic-details-banner.jpg");
+}
+
+.program-card,
+.eligibility-card,
+.download-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover,
+.eligibility-card:hover,
+.download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.highlight-icon,
+.criteria-icon {
+    flex-shrink: 0;
+}
+
+.criteria-card {
+    transition: transform 0.2s ease;
+}
+
+.criteria-card:hover {
+    transform: translateY(-2px);
+}
+
+.action-buttons .btn {
+    transition: all 0.3s ease;
+}
+
+.syllabus-tabs .nav-pills .nav-link {
+    background: #f8f9fa;
+    color: var(--primary);
+    border: 2px solid transparent;
+    padding: 12px 24px;
+    margin: 0 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.syllabus-tabs .nav-pills .nav-link:hover {
+    background: rgba(34, 85, 128, 0.1);
+    border-color: var(--primary);
+}
+
+.syllabus-tabs .nav-pills .nav-link.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.semester-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.subject-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary);
+    transition: all 0.3s ease;
+}
+
+.subject-item:hover {
+    background: rgba(34, 85, 128, 0.05);
+    transform: translateX(5px);
+}
+
+.subject-item i {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.subject-item span {
+    font-weight: 500;
+    color: #333;
+}
+
+.pedagogy-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pedagogy-option {
+    background: white;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.pedagogy-option:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .syllabus-tabs .nav-pills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .syllabus-tabs .nav-pills .nav-link {
+        margin: 4px 0;
+        width: 200px;
+    }
+
+    .subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pedagogy-options {
+        justify-content: center;
+    }
+}
+
+/* faculty detail  */
+.faculty-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/faculty-banner.jpg");
+}
+
+.faculty-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.faculty-img {
+    border: 3px solid var(--primary);
+}
+
+.badge {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+    margin: 0.1rem;
+}
+
+.feature-card {
+    transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-3px);
+}
+
+.stat-card h2 {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+    .stat-card h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* admission process  */
+.admission-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/admission-banner.jpg");
+}
+
+.process-steps {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-item:not(:last-child):after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    bottom: -2rem;
+    width: 2px;
+    background: var(--primary);
+    opacity: 0.3;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.info-card,
+.date-card,
+.doc-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover,
+.date-card:hover,
+.doc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.highlight-icon {
+    flex-shrink: 0;
+}
+
+/* eligibility criteria */
+.eligibility-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/eligibility-banner.jpg");
+}
+
+.eligibility-card,
+.summary-card,
+.notes-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eligibility-card:hover,
+.summary-card:hover,
+.notes-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.eligibility-section,
+.admission-section,
+.detailed-eligibility {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 2rem;
+}
+
+.eligibility-section:last-child,
+.admission-section:last-child,
+.detailed-eligibility:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.eligibility-list {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.eligibility-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.eligibility-item:last-child {
+    margin-bottom: 0;
+}
+
+.note-item {
+    transition: transform 0.2s ease;
+}
+
+.note-item:hover {
+    transform: translateX(5px);
+}
+
+.percentage-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* examination result  */
+.exam-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/examination-result-banner.avif");
+}
+
+.exam-structure-card,
+.schedule-card,
+.result-card,
+.grading-card,
+.guideline-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.exam-structure-card:hover,
+.schedule-card:hover,
+.result-card:hover,
+.grading-card:hover,
+.guideline-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.feature-icon {
+    flex-shrink: 0;
+}
+
+.table th {
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.quick-link-card {
+    transition: all 0.3s ease;
+}
+
+.quick-link-card:hover {
+    transform: translateY(-3px);
+    background: rgba(34, 85, 128, 0.05);
+    border-color: var(--primary) !important;
+}
+
+.assessment-item,
+.schedule-item {
+    transition: background-color 0.2s ease;
+}
+
+.assessment-item:hover,
+.schedule-item:hover {
+    background-color: rgba(34, 85, 128, 0.05);
+}
+
+/* fees page  */
+.fees-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/fees-banner.avif");
+}
+
+.fee-card,
+.charge-card,
+.payment-methods-card,
+.refund-card,
+.notes-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fee-card:hover,
+.charge-card:hover,
+.payment-methods-card:hover,
+.refund-card:hover,
+.notes-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.table th {
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.payment-icon,
+.refund-icon {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.method-card,
+.charge-card {
+    transition: transform 0.2s ease;
+}
+
+.method-card:hover,
+.charge-card:hover {
+    transform: translateY(-3px);
+}
+
+.total-program-fee {
+    border-left: 4px solid var(--primary);
+}
+
+.note-item {
+    transition: transform 0.2s ease;
+}
+
+.note-item:hover {
+    transform: translateX(5px);
+}
+
+/* campus infrastructure */
+.infrastructure-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/school-images/school-5.jpg");
+}
+
+.facility-card,
+.additional-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-card:hover,
+.additional-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.infra-image img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.feature-item,
+.sport-item {
+    transition: transform 0.2s ease;
+}
+
+.feature-item:hover,
+.sport-item:hover {
+    transform: translateX(5px);
+}
+
+/* campus overview */
+.campus-overview-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/school-images/school-4.jpg");
+}
+
+.campus-image img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.highlight-item,
+.support-item,
+.visit-item {
+    transition: transform 0.3s ease;
+}
+
+.highlight-item:hover,
+.support-item:hover,
+.visit-item:hover {
+    transform: translateY(-5px);
+}
+
+.activity-tag {
+    display: inline-block;
+    background: rgba(34, 85, 128, 0.1);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.25rem;
+}
+
+.benefit-item {
+    transition: transform 0.2s ease;
+}
+
+.benefit-item:hover {
+    transform: translateX(5px);
+}
+
+/* contact info sd  */
+
+.contact-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/contact-info-banner.avif");
+}
+
+.staff-card,
+.dept-card,
+.general-contact,
+.emergency-contact {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.staff-card:hover,
+.dept-card:hover,
+.general-contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.staff-image {
+    border: 3px solid var(--primary);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.contact-method {
+    transition: transform 0.2s ease;
+}
+
+.contact-method:hover {
+    transform: translateY(-3px);
+    background: rgba(34, 85, 128, 0.05);
+}
+
+.emergency-item {
+    padding: 1rem;
+}
+
+/* scholarship */
+
+.scholarship-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/scholarship-banner.jpg");
+}
+
+.scholarship-card,
+.govt-scheme-card,
+.doc-card,
+.dates-card,
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scholarship-card:hover,
+.govt-scheme-card:hover,
+.doc-card:hover,
+.dates-card:hover,
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.stat-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.scholarship-details {
+    text-align: left;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.process-steps {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-item:not(:last-child):after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    bottom: -2rem;
+    width: 2px;
+    background: var(--primary);
+    opacity: 0.3;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.date-item {
+    transition: background-color 0.2s ease;
+}
+
+.date-item:hover {
+    background-color: rgba(34, 85, 128, 0.05);
+}
+
+.contact-item {
+    transition: transform 0.2s ease;
+}
+
+.contact-item:hover {
+    transform: translateX(5px);
+}
+
+.scholarship-image img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* student life */
+.studentlife-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/student-life-banner.jpg");
+}
+
+.activity-card,
+.development-card,
+.testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover,
+.development-card:hover,
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.feature-item {
+    transition: transform 0.2s ease;
+}
+
+.feature-item:hover {
+    transform: translateX(5px);
+}
+
+.events-image img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.testimonial-card {
+    background: white;
+}
+
+/* student support */
+.support-bg {
+    background-image: linear-gradient(
+            rgba(17, 22, 44, 0.6),
+            rgba(77, 77, 77, 0.6)
+        ),
+        url("Images/banner/student-support-banner.jpg");
+}
+
+.service-card,
+.resource-card,
+.contact-support {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover,
+.resource-card:hover,
+.contact-support:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.stat-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item {
+    transition: transform 0.2s ease;
+}
+
+.feature-item:hover {
+    transform: translateX(5px);
+}
+
+.contact-method {
+    padding: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-method:hover {
+    background: rgba(34, 85, 128, 0.05);
+}
+
+.support-image img,
+.mentorship-image img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
 }
